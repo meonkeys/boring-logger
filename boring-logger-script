@@ -1,0 +1,7 @@
+#!/bin/sh
+while true
+do
+  echo "[$(date)] boring logger standard out - Adam Monsen testing"
+  echo "[$(date)] boring logger standard error - Adam Monsen testing" > /dev/stderr
+  sleep 2
+done
